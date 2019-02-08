@@ -1,0 +1,73 @@
+#navigation-content-container {
+  position: fixed;
+  background-color: #333;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background-image: -webkit-linear-gradient(270deg, rgba(9, 14, 27, .95), rgba(9, 14, 27, .95)), url('../images/full-bg.jpg');
+  background-image: linear-gradient(180deg, rgba(9, 14, 27, .95), rgba(9, 14, 27, .95)), url('../images/full-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.nav-overlay-links {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  /* height: 100%; */
+  line-height: 7vh;
+  top: 50%;
+  left: 50%;
+  transform: translateX(0%) translateY(50%);
+}
+
+.nav-overlay-link {
+  color: #6d6d6d;
+  font-size: 4vh;
+  font-family: Lato, sans-serif;
+  text-decoration: none;
+  text-shadow: 4vh 4vh 4vh rgba(28,110,164,1)
+  7px 6px 1px #CCCCCC
+  5px 6px 1px #EEEEEE
+  6px 5px 1px #CCCCCC
+  4px 5px 1px #EEEEEE
+  5px 4px 1px #CCCCCC
+  3px 4px 1px #EEEEEE
+  4px 3px 1px #CCCCCC
+  2px 3px 1px #EEEEEE
+  3px 2px 1px #CCCCCC
+  1px 2px 1px #EEEEEE
+  2px 1px 1px #CCCCCC
+  0px 1px 1px #EEEEEE
+  1px 0px 1px #CCCCCC;
+  cursor: pointer;
+  
+}
+.spanLeft{
+  position: absolute;
+  left:-7px;
+  opacity:0;
+  transition:0.25s;
+}
+
+.spanRight{
+  position: absolute;
+  right:-7px;
+  opacity:0;
+  transition:0.25s;
+}
+
+.nav-overlay-link:hover .spanLeft{
+  position: absolute;
+  left:-20px;
+  opacity:1;
+}
+
+.effect-shine:hover .spanRight{
+  position: absolute;
+  right:-20px;
+  opacity:1;
+}

@@ -1,0 +1,75 @@
+.team-section {
+    z-index: 100000;
+}
+
+.team-container {
+    top: 25%;
+    float: left;
+    padding: 2vw;
+  }
+  .team-container h1 {
+    color: indianred;
+    text-align: center;
+    text-shadow: 0 1px 0 #7b3737, 0 2px 0 #7b3737, 0 3px 0 #7b3737, 0 4px 0 #7b3737, 0 5px 0 #7b3737, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  }
+  
+  .team-member-container {
+    text-align: center;
+    background-color: rgba(170, 170, 170, 0.192);
+  }
+  .team-member-container .name-separator {
+    color: white;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  }
+  .team-member-container h3 {
+    color: indianred;
+    text-shadow: 0 1px 0 #7b3737, 0 2px 0 #7b3737, 0 3px 0 #7b3737, 0 4px 0 #7b3737, 0 5px 0 #7b3737, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  }
+  .team-member-container img {
+    width: 35%;
+    margin-bottom: 13px;
+    -webkit-filter: drop-shadow(0px 0px 100px white);
+    filter: drop-shadow(0px 0px 100px white);
+
+  }
+  .container-row {
+    width: 100%;
+    float: left;
+    margin: auto auto;
+  }
+  
+  .about-icon-container {
+    text-align: center;
+  }
+  
+  .third-container {
+    position: relative;
+    width: 33%;
+    float: left;
+  }
+  * {
+      color: white;
+  }
+  @media (max-width: 768px) {
+    .third-container {
+      width: 100%;
+    }
+    .about-container .topic-text {
+      text-align: center;
+      font-size: 4vw;
+    }
+    .about-container .topic-text::first-letter {
+      font-size: 6vw;
+    }
+    .about-container .topic-header {
+      text-align: center;
+      font-size: 10vw;
+    }
+    .about-container .topic-left {
+      text-align: center;
+    }
+    .about-icon-container {
+      display: none;
+    }
+  }
+  

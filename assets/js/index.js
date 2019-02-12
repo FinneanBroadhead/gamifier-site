@@ -1,31 +1,8 @@
-var navOpen = false;
-
 $(document).ready(function() {
-  triggerNav();
+  $('.overlay').css('opacity', '0');
+  setTimeout(removeOverlay, 250);
 });
 
-
-function triggerNav() {
-  if (navOpen) {
-    closeNav();
-  } else {
-    openNav();
-  }
-}
-
-$(window).click(function() {
-  console.log("Clicked");
-  triggerNav();
-});
-
-function openNav() {
-  navOpen = true;
-  console.log("Opened nav");
-  $("#navigation-content-container").fadeIn(100);
-}
-
-function closeNav() {
-  navOpen = false;
-  console.log("Closed nav");
-  $("#navigation-content-container").fadeOut(200);
+function removeOverlay() {
+  $('.overlay').css('visibility', 'hidden');
 }

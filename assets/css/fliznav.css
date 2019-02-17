@@ -16,7 +16,7 @@
 	  overflow-x: hidden;
   }
   
-  .darkness-overlay {
+.darkness-overlay {
 	visibility: hidden;
 	opacity: 0;
 	position: fixed;
@@ -26,7 +26,7 @@
 	height: 100%;
 	background-color: black !important;
 	transition: opacity 0.5s;
-  }
+	}
 
 /* Navbar */
 #navbar {

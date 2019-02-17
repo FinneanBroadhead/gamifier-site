@@ -1244,3 +1244,9 @@ a.effect-shine:hover {
   width: 1rem;
   height: 1rem;
 }
+@media (orientation: portrait) {
+  body {
+  width: 100%;
+  overflow-x: hidden;
+  }
+}

@@ -148,8 +148,8 @@
 
   p {
     font-weight: 300;
-  /* }
-  a {
+   }
+  /* a {
     color: #6c6d6d;
     text-decoration: none;
     text-transform: uppercase;
@@ -160,11 +160,11 @@
     padding: 0.3rem 1rem;
     margin: 1.9rem 0 0 0;
     float: right;
-  } */
+  } */ */
   /* a:hover {
     color: white;
     /* background: #004ffc; */
-  } */
+  
   strong {
     font-weight: 600;
   }
@@ -248,4 +248,19 @@
     content: "";
     top: 5px;
   }
-  
+  @media (orientation: portriat) {
+    .timeline {
+      max-width: 50%;
+    }
+    .timeline .event:before {
+      left: -230.5px;
+      min-width: 200px;
+
+    }
+    .timeline .event:after {
+      width: 50px;
+      height: 55px;
+      box-shadow: 0 0 0 8px #004ffc;
+
+    }
+  }

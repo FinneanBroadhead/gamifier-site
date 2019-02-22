@@ -5,6 +5,9 @@ body {
   line-height: 1.6em;
   font-weight: 400;
   overflow-x: hidden !important;
+  min-height: 100vh;
+  min-width: 100vw;
+
 }
 
 p {
@@ -12,13 +15,14 @@ p {
   font-family: courier-std, sans-serif;
   font-weight: 400;
 }
+
 .overlay {
   position: fixed;
   left: 0px;
-  top: 0px; 
+  top: 0px;
   opacity: 1;
   transition: .25s;
-  background-color: #0f131e; 
+  background-color: #0f131e;
   width: 100%;
   height: 100%;
   z-index: 30000;
@@ -34,15 +38,18 @@ p {
   text-align: center;
   top: 50%;
 }
+
 #loader .cssload-loader {
   z-index: 1005;
   opacity: 0;
   transition: opacity 0.5s;
 }
+
 #loader .cssload-loader-container {
-	width: 29px;
+  width: 29px;
   transform: translateX(-50%);
 }
+
 .dribbble-link {
   position: fixed;
   bottom: 10px;
@@ -107,7 +114,7 @@ p {
   transition: box-shadow 200ms ease;
   font-family: futura-pt, sans-serif;
   color: #fff;
-  font-size: .9vw;
+  font-size: 1.4vw;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -295,6 +302,10 @@ p {
 .div-block-2.v2 {
   left: -70px;
   top: 50px;
+}
+
+#main-content-container {
+  background-color: #0f131e;
 }
 
 .div-block-2.v3 {
@@ -716,22 +727,25 @@ html.w-mod-js *[data-ix="on-load-0px"] {
   position: absolute;
   font-size: 2vh;
 }
+
 #row-1 {
-	position: relative;
+  position: relative;
   width: 100%;
-	z-index: 9;
+  z-index: 9;
 }
+
 #row-1 .about-container {
   background-color: rgba(0, 0, 0, 0.2);
--webkit-box-shadow: 0px 0px 56px -4px rgba(22,24,31,1);
--moz-box-shadow: 0px 0px 56px -4px rgba(22,24,31,1);
-box-shadow: 0px 0px 56px -4px rgba(22,24,31,1);
-	background-size: cover;
-	background-position: center;
-	/* padding: 10% 0px; */
-	padding-top: 10%;
-	padding-bottom: 3%;
+  -webkit-box-shadow: 0px 0px 56px -4px rgba(22, 24, 31, 1);
+  -moz-box-shadow: 0px 0px 56px -4px rgba(22, 24, 31, 1);
+  box-shadow: 0px 0px 56px -4px rgba(22, 24, 31, 1);
+  background-size: cover;
+  background-position: center;
+  /* padding: 10% 0px; */
+  padding-top: 10%;
+  padding-bottom: 3%;
 }
+
 #row-1 .about-header {
   font-size: 4vw;
   font-family: futura-pt, sans-serif;
@@ -739,32 +753,39 @@ box-shadow: 0px 0px 56px -4px rgba(22,24,31,1);
   margin-bottom: 5vw;
   text-transform: uppercase;
   text-align: center;
-  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
 }
+
 #row-1 h1 {
   font-family: 'Lobster', cursive;
   text-transform: capitalize;
   font-size: 5vw;
 }
+
 #row-1 .about-card {
-  width: 80%;
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  text-align: center;
 }
+
 #row-1 .about-card h1 {
   font-size: 4vw;
   font-family: futura-pt, sans-serif;
   padding-bottom: 100px;
+  padding-left: 5px;
+  left: 0;
+  padding-right: 5px;
 }
+
 #row-1 .about-card p {
-  font-size: 1.6vw;
+  font-size: 2vw;
   color: rgb(196, 196, 196);
 }
+
 .dna-container {
   width: 100%;
   height: 100vh;
 }
+
 .arrow {
   width: 15%;
   height: 15%;
@@ -774,9 +795,11 @@ box-shadow: 0px 0px 56px -4px rgba(22,24,31,1);
 
   padding-bottom: 25px;
 }
+
 .arrow-container {
   align-content: center;
 }
+
 .centered-element.brain-card {
   width: 50%;
   left: 10%;
@@ -803,6 +826,7 @@ box-shadow: 0px 0px 56px -4px rgba(22,24,31,1);
   color: black;
   font-family: futura-pt sans-serif;
 }
+
 .centered-element.brain-card-2 {
   width: 50%;
   top: 150%;
@@ -876,6 +900,7 @@ box-shadow: 0px 0px 56px -4px rgba(22,24,31,1);
     line-height: 1.1em;
   }
 }
+
 /* roadmap section */
 .roadmap-section {
   position: relative;
@@ -891,6 +916,7 @@ box-shadow: 0px 0px 56px -4px rgba(22,24,31,1);
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
 }
+
 .phase-1 {
   color: white;
   /* top: 530px; */
@@ -901,6 +927,7 @@ box-shadow: 0px 0px 56px -4px rgba(22,24,31,1);
   padding: 10px;
   border-bottom: 2px solid black;
 }
+
 .fa-gamepad {
   font-size: 25px;
   margin-top: 2px;
@@ -912,16 +939,20 @@ box-shadow: 0px 0px 56px -4px rgba(22,24,31,1);
   position: relative;
   color: white;
 }
-.roadmap-header h2  {
+
+.roadmap-header h2 {
   position: relative;
   /* top: 500px; */
   color: rgb(231, 224, 224);
 
 }
+
 .full-page {
   height: 100vh;
+  background-color: #0f131e;
   width: 100vw;
 }
+
 @media (max-width: 767px) {
   .hero-section {
     min-height: 400px;
@@ -943,6 +974,7 @@ box-shadow: 0px 0px 56px -4px rgba(22,24,31,1);
   .nav-menu {
     background-color: #15172e;
   }
+
   .brand i {
     display: block;
     width: 160px;
@@ -1096,9 +1128,10 @@ box-shadow: 0px 0px 56px -4px rgba(22,24,31,1);
     z-index: 1;
   }
 }
+
 /* effect-shine */
 a.effect-shine:hover {
-  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
   -webkit-mask-size: 200%;
   animation: shine 2s infinite;
 }
@@ -1107,11 +1140,12 @@ a.effect-shine:hover {
   from {
     -webkit-mask-position: 150%;
   }
-  
+
   to {
     -webkit-mask-position: -50%;
   }
 }
+
 .dna-spinner {
   display: block;
   width: 47.5rem;
@@ -1244,9 +1278,28 @@ a.effect-shine:hover {
   width: 1rem;
   height: 1rem;
 }
+
 @media (orientation: portrait) {
-  body {
-  width: 100%;
-  overflow-x: hidden;
+  #main-content-container {
+    width: 100vw !important;
+    overflow-x: hidden !important;
+    min-width: 100vw;
+
+  }
+
+  #team-section {
+    margin-top: 20vh;
+  }
+
+  .full-page {
+    width: 100vw !important;
+    overflow-x: hidden !important;
+    min-width: 100vw;
+    
+
+  }
+  .nav-link {
+    font-size: 1.3vw;
   }
 }
+

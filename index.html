@@ -6,8 +6,10 @@
 <head>
     <meta charset="utf-8">
     <title>Gamifier | Advertising Agency</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Webflow" name="generator">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
     <link href="assets/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="assets/css/roadmap.css" rel="stylesheet" type="text/css">
     <!-- <link href="assets/css/contact.css" rel="stylesheet" type="text/css"> -->
@@ -33,6 +35,7 @@
     <script src="assets/js/nav.js"></script>
     <script src="assets/js/pagetransition.js"></script>
     <script src="assets/js/contact.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js"></script>
 
     <script src="assets/js/stats.js"></script>
@@ -256,7 +259,7 @@
             </div>
         </div>
         <div class="dna-section">
-            <div id="row-1" class="full-page">
+            <div id="row-1">
                 <div class="container-fluid about-container" data-aos="fade-zoom-in" data-aos-duration="2000">
                     <h1 class="about-header">
                         Gamifications Effect on Your Brains Reward System„
@@ -268,8 +271,8 @@
                             <h1 class="about-card-header" data-aos="fade-up">
                                 How it Works -
                             </h1>
-                            <p style="margin-top: 4vh; font-family: sans-serif; line-height: 125%;">
-                                    Your brain rewards itself in many different ways, gamification has 2 different lanes of
+                            <p style="margin-top: 4vh; font-family: sans-serif; line-height: 125%; ">
+                                Your brain rewards itself in many different ways, gamification has 2 different lanes of
                                 rewards
                                 for your brains central nervous system; Enjoyment from the game is one
                                 (accomplishment/entertainment) and the other, is material reward. Lets say for example
@@ -330,7 +333,8 @@
                             <h1 class="about-header">
                                 How this affects your business„
                             </h1>
-                            <p style="margin-top: 4vh; font-family: sans-serif; line-height: 125%;">
+                            <div class="container-fluid">
+                            <p style="margin-top: 4vh; font-family: sans-serif; line-height: 125%; ">
                                 It's extremely difficult to create an advertisment that is appealing to the consumer.
                                 This
                                 undeniable
@@ -362,12 +366,14 @@
                             <br>
                             <h4><a onclick="openLeftSidebar(SideOptions.ABOUT);" class="read-more">Tell Me More</a></h4>
                         </div>
+                    </div>
                         <br><br>
                         <hr>
                     </div>
 
                 </div>
             </div>
+        </div>
 
 
 
@@ -399,7 +405,8 @@
 
 
 
-            <!-- <div class="container dna-container">
+
+        <!-- <div class="container dna-container">
                 <h1 class="dna-heading heading-1">Gamifications Effect on Your Brains Reward System</h1>
 
                 <div class="centered-element brain-card">
@@ -473,103 +480,105 @@
                     else seemed to follow suit.
                 </p>
             </div> -->
-            <div class="full-page"></div>
-            <div class="roadmap-section">
-                <div class="centered-element roadmap-header">
-                    <h1 class="dna-heading">Roadmap</h1>
-                    <h2 class="roadmap-subhead">Our Approach: the Fast Track to Success</h2>
-                </div>
-                <div class="container">
-                    <div id="content">
-                        <h1>Timeline</h1>
+        <div class="roadmap-section full-page">
 
-                        <ul class="timeline">
-                            <li class="event" data-date="65Million B.C.">
-                                <h3>Dinosaurs Roamed the Earth</h3>
-                                <p>RAWWWWWWRRR 🐢🦂</p>
-                            </li>
-                            <li class="event" data-date="2005">
-                                <h3>Creative Component Launched</h3>
-                                <p>"We can be all things to all people!" 📣</p>
-                            </li>
-                            <li class="event" data-date="2009">
-                                <h3>Squareflair was Born</h3>
-                                <p></p>
-                                <p>"We can be all things to Gamifier users!" 📣</p>
-                            </li>
-                            <li class="event" data-date="November 15, 2018">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum consequatur
-                                cum
-                                quisquam, commodi ut laborum, fugiat consequuntur voluptatem voluptates excepturi velit
-                                perferendis blanditiis reprehenderit omnis veritatis id, saepe repellendus?
-
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="centered-element roadmap-header">
+                <h1 class="dna-heading">Roadmap</h1>
+                <h2 class="roadmap-subhead">Our Approach: the Fast Track to Success</h2>
             </div>
-            <hr>
-            <!-- Our team -->
-            <div class="full-page team-section">
-                <div class="team-container">
-                    <h1>Our Team of Thinkers & Makers</h1>
-                    <br>
-                    <div class="container-row">
-                        <div class="third-container team-member-container">
-                            <img src="assets/images/astronaut-floating-p-500.png" class="team-member-image">
-                            <h3>Jeff Bezos <span class="name-separator">//</span> <small style="text-shadow: none;">Founder,
-                                    Developer</small></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis libero
-                                reprehenderit, rem sit architecto eveniet totam molestias maiores dicta illo nam,
-                                minus, earum nisi vero aliquam dolore unde corrupti ducimus.</p>
-                        </div>
-                        <div class="third-container team-member-container">
-                            <img src="assets/images/astronaut-floating-p-500.png" class="team-member-image">
-                            <h3>John Doe <span class="name-separator">//</span> <small style="text-shadow: none;">Developer</small></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis libero
-                                reprehenderit, rem sit architecto eveniet totam molestias maiores dicta illo nam,
-                                minus, earum nisi vero aliquam dolore unde corrupti ducimus.</p>
-                        </div>
-                        <div class="third-container team-member-container">
-                            <img src="assets/images/astronaut-floating-p-500.png" class="team-member-image">
-                            <h3>Rick Ross <span class="name-separator">//</span> <small style="text-shadow: none;">Designer</small></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque asperiores quae,
-                                ipsam ducimus consectetur aperiam, ipsum? Dicta labore eius obcaecati enim
-                                praesentium, veritatis, asperiores sapiente earum maiores ducimus ea reprehenderit?</p>
-                        </div>
-                    </div>
+            <div class="container">
+                <div id="content">
+                    <h1>Timeline</h1>
 
+                    <ul class="timeline">
+                        <li class="event" data-date="65Million B.C.">
+                            <h3>Dinosaurs Roamed the Earth</h3>
+                            <p>RAWWWWWWRRR 🐢🦂</p>
+                        </li>
+                        <li class="event" data-date="2005">
+                            <h3>Creative Component Launched</h3>
+                            <p>"We can be all things to all people!" 📣</p>
+                        </li>
+                        <li class="event" data-date="2009">
+                            <h3>Squareflair was Born</h3>
+                            <p></p>
+                            <p>"We can be all things to Gamifier users!" 📣</p>
+                        </li>
+                        <li class="event" data-date="November 15, 2018">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum consequatur
+                            cum
+                            quisquam, commodi ut laborum, fugiat consequuntur voluptatem voluptates excepturi velit
+                            perferendis blanditiis reprehenderit omnis veritatis id, saepe repellendus?
+
+                        </li>
+                    </ul>
                 </div>
-                <hr>
-                <div class="about-card" style="text-align: center; margin-top: 150px;">
-                    <h1 class="about-card-header" data-aos="fade-up">
-                        Lorem-
-                    </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis libero
-                        reprehenderit, rem sit architecto eveniet totam molestias maiores dicta illo nam,
-                        minus, earum nisi vero aliquam dolore unde corrupti ducimus. Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit.
-                        Voluptas explicabo sequi numquam et perspiciatis quas nostrum culpa corrupti!
-                        Magni accusamus et consectetur libero assumenda eligendi doloremque veniam pariatur ea quidem.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis libero
-                        reprehenderit, rem sit architecto eveniet totam molestias maiores dicta illo nam,
-                        minus, earum nisi vero aliquam dolore unde corrupti ducimus. Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit.
-                        Voluptas explicabo sequi numquam et perspiciatis quas nostrum culpa corrupti!
-                        Magni accusamus et consectetur libero assumenda eligendi doloremque veniam pariatur ea quidem.
-                    </p>
-                </div>
-                <hr>
-            </div>
-            
-            
             </div>
         </div>
     </div>
-    </div>
-    </div>
+    <div class="full-page"></div>
+        <hr>
+        <!-- Our team -->
+        <div class="full-page team-section">
+            <div class="team-container">
+                <h1>Our Team of Thinkers & Makers</h1>
+                <br>
+                <div class="container-row">
+                    <div class="third-container team-member-container">
+                        <img src="assets/images/astronaut-floating-p-500.png" class="team-member-image">
+                        <h3>Jeff Bezos <span class="name-separator">//</span> <small style="text-shadow: none;">Founder,
+                                Developer</small></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis libero
+                            reprehenderit, rem sit architecto eveniet totam molestias maiores dicta illo nam,
+                            minus, earum nisi vero aliquam dolore unde corrupti ducimus.</p>
+                    </div>
+                    <div class="third-container team-member-container">
+                        <img src="assets/images/astronaut-floating-p-500.png" class="team-member-image">
+                        <h3>John Doe <span class="name-separator">//</span> <small style="text-shadow: none;">Developer</small></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis libero
+                            reprehenderit, rem sit architecto eveniet totam molestias maiores dicta illo nam,
+                            minus, earum nisi vero aliquam dolore unde corrupti ducimus.</p>
+                    </div>
+                    <div class="third-container team-member-container">
+                        <img src="assets/images/astronaut-floating-p-500.png" class="team-member-image">
+                        <h3>Rick Ross <span class="name-separator">//</span> <small style="text-shadow: none;">Designer</small></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque asperiores quae,
+                            ipsam ducimus consectetur aperiam, ipsum? Dicta labore eius obcaecati enim
+                            praesentium, veritatis, asperiores sapiente earum maiores ducimus ea reprehenderit?</p>
+                    </div>
+                </div>
 
+            </div>
+            <hr>
+            <div class="about-card" style="text-align: center; margin-top: 150px;">
+                <h1 class="about-card-header" data-aos="fade-up">
+                    Lorem-
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis libero
+                    reprehenderit, rem sit architecto eveniet totam molestias maiores dicta illo nam,
+                    minus, earum nisi vero aliquam dolore unde corrupti ducimus. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit.
+                    Voluptas explicabo sequi numquam et perspiciatis quas nostrum culpa corrupti!
+                    Magni accusamus et consectetur libero assumenda eligendi doloremque veniam pariatur ea quidem.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis libero
+                    reprehenderit, rem sit architecto eveniet totam molestias maiores dicta illo nam,
+                    minus, earum nisi vero aliquam dolore unde corrupti ducimus. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit.
+                    Voluptas explicabo sequi numquam et perspiciatis quas nostrum culpa corrupti!
+                    Magni accusamus et consectetur libero assumenda eligendi doloremque veniam pariatur ea quidem.
+                </p>
+            </div>
+            <hr>
+        </div>
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
 
 
     </div>

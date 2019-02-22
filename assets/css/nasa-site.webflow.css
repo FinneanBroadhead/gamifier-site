@@ -707,7 +707,7 @@ html.w-mod-js *[data-ix="on-load-0px"] {
   width: 100%;
   height: auto;
   min-height: 100vh;
-  padding-top: 277px;
+  padding-top: 75px;
   padding-bottom: 150px;
   background-color: #0f131e;
   background-position: 0px 0px, 50% 0px;
@@ -720,8 +720,6 @@ html.w-mod-js *[data-ix="on-load-0px"] {
   width: 100%;
   /* align-content: center; */
   text-align: center;
-  top: -200px;
-
   /* margin-right: 250px; */
   color: white;
   position: absolute;
@@ -742,7 +740,6 @@ html.w-mod-js *[data-ix="on-load-0px"] {
   background-size: cover;
   background-position: center;
   /* padding: 10% 0px; */
-  padding-top: 10%;
   padding-bottom: 3%;
 }
 
@@ -770,14 +767,14 @@ html.w-mod-js *[data-ix="on-load-0px"] {
 #row-1 .about-card h1 {
   font-size: 4vw;
   font-family: futura-pt, sans-serif;
-  padding-bottom: 100px;
+  padding-bottom: 75px;
   padding-left: 5px;
   left: 0;
   padding-right: 5px;
 }
 
 #row-1 .about-card p {
-  font-size: 2vw;
+  font-size: 2.5vw;
   color: rgb(196, 196, 196);
 }
 
@@ -792,7 +789,6 @@ html.w-mod-js *[data-ix="on-load-0px"] {
   margin-top: 50px;
   transform: rotate(90deg);
   position: relative;
-
   padding-bottom: 25px;
 }
 
@@ -905,10 +901,8 @@ html.w-mod-js *[data-ix="on-load-0px"] {
 .roadmap-section {
   position: relative;
   width: 100%;
-  height: auto;
-  min-height: 200vh;
-  height: 200vh;
-  width: 100vw;
+  padding-bottom: 10vh;
+  height: 150%;
   background-image: -webkit-linear-gradient(270deg, rgba(9, 14, 27, .45), rgba(9, 14, 27, .45)), url('../images/full-bg.jpg');
   background-image: linear-gradient(180deg, rgba(9, 14, 27, .45), rgba(9, 14, 27, .45)), url('../images/full-bg.jpg');
   background-position: 0px 0px, 50% 0px;
@@ -931,6 +925,10 @@ html.w-mod-js *[data-ix="on-load-0px"] {
 .fa-gamepad {
   font-size: 25px;
   margin-top: 2px;
+}
+.team-section {
+  height: 100%;
+  width: 100%;
 }
 
 .roadmap-header h1 {
@@ -1298,8 +1296,25 @@ a.effect-shine:hover {
     
 
   }
+  .about-card p {
+    font-size: 3vw;
+  }
+  .quantity.v3 {
+    width: 250px;
+  }
+
+.quantity.v2 {
+  top: 10px;
+  width: 215px;
+}
   .nav-link {
     font-size: 1.3vw;
+  }
+  .image-section p {
+    display: none;
+  }
+  .image-section .heading-3 {
+    display: none !important;
   }
 }
 
